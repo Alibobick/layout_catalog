@@ -38,7 +38,7 @@
   border-radius: 5px;
   background-color: #fff;
   font-family: $font-family;
-  transition: all 0.3s ease;
+  transition: $transition;
 
   &__image {
     width: 160px;
@@ -148,14 +148,16 @@
     font-size: 14px;
     line-height: 16px;
     cursor: pointer;
+    transition: $transition;
   }
 
   &:hover {
     transform: scale(1.2);
+    color: $hover-color;
   }
 
   &__title:hover {
-    color: #34568b;
+    color: $hover-color;
   }
 
   &__action-buy:hover {
