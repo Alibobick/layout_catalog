@@ -151,13 +151,12 @@
     transition: $transition;
   }
 
-  &:hover {
+  &:hover{
     transform: scale(1.2);
     color: $hover-color;
-  }
-
-  &__title:hover {
-    color: $hover-color;
+    .card__title {
+      color: $hover-color;
+    }
   }
 
   &__action-buy:hover {
